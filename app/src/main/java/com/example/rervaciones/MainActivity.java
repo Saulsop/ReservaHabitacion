@@ -1,7 +1,6 @@
 package com.example.rervaciones;
 
 import android.os.Bundle;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -43,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                 String personas = editTextPersonas.getText().toString();
 
                 // Aquí puedes agregar la lógica para procesar la reserva
-                Toast.makeText(this, "Reserva realizada con éxito", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Reservación Exitosa", Toast.LENGTH_SHORT).show();
             }
         });
     }
